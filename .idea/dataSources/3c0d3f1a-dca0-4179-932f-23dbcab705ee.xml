@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - my_laravel@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="my_laravel">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="db"/>
+    <schema id="3" name="dcb"/>
+    <schema id="4" name="dedecmsv57utf8sp1"/>
+    <schema id="5" name="ecshop"/>
+    <schema id="6" name="guolu"/>
+    <schema id="7" name="hnthdl"/>
+    <schema id="8" name="information_schema"/>
+    <schema id="9" name="lyadmin"/>
+    <schema id="10" name="mysql"/>
+    <schema id="11" name="news"/>
+    <schema id="12" name="performance_schema"/>
+    <schema id="13" name="php34"/>
+    <schema id="14" name="php34_privilege"/>
+    <schema id="15" name="sys"/>
+    <schema id="16" name="temp"/>
+    <schema id="17" name="test"/>
+    <schema id="18" name="thinkphp"/>
+    <schema id="19" name="tianyuan"/>
+    <schema id="20" name="tp_admin"/>
+    <table id="21" parent="1" name="user"/>
+    <column id="22" parent="21" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="23" parent="21" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="24" parent="21" name="password">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="25" parent="21" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
